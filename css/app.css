@@ -1,0 +1,56 @@
+body {
+    background-color: #448844;
+}
+#middle_block {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+}
+#lake {
+    display: none;
+    height: 600px;
+    border-radius: 300px;
+    border: 1px solid #4488dd;
+    overflow: hidden;
+}
+#back_part {
+    width: 600px;
+    height: 300px;
+    background-color: #88bbdd;
+}
+#front_part {
+    position: relative;
+}
+#front_part_inner {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    height: 300px;
+    background-color: #88bbdd;
+}
+#goddess_block {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    width: 200px;
+}
+#goddess_block img:first-child {
+    width: 200px;
+}
+.axe {
+    display: none;
+    position: absolute;
+    left: 260px;
+    width: 80px;
+}
+.goddess_hand {
+    top: -34px;
+    left: 28px;
+}
+#woodcutter {
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: -200px;
+    width: 200px;
+}
